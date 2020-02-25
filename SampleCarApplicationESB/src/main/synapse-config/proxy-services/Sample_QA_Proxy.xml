@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="Sample_QA_Proxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <payloadFactory media-type="xml">
+                <format>
+                    <status>success</status>
+                </format>
+                <args></args>
+            </payloadFactory>
+            <respond />
+        </inSequence>
+        <outSequence />
+        <faultSequence />
+    </target>
+</proxy>

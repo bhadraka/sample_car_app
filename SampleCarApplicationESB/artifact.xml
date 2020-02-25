@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<artifacts>
+    <artifact name="Sample_QA_Proxy" groupId="com.novigi.qa.sample.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Sample_QA_Proxy.xml</file>
+    </artifact>
+    <artifact name="Sample_QA_Api" groupId="com.novigi.qa.sample.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Sample_QA_Api.xml</file>
+    </artifact>
+</artifacts>
